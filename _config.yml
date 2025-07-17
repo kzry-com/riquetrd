@@ -1,0 +1,47 @@
+# Site
+name: 'RiqueTRD'
+description: 'RiqueTRD. Videos.'
+logo: 'assets/images/riquetrd/new_logo_horiz_2025.png'
+favicon: 'assets/images/riquetrd/new_logo_vert_180.png'
+baseurl: ''
+host: 'www.riquetrd.com'
+avatar: 'assets/images/riquetrd/new_logo_vert_88.png'
+disqus: 'riquetrd-2025'
+email: 'riquetrd@riquetrd.com'
+
+include: ["_pages"]
+permalink: /:title/
+
+# Plugins
+plugins: 
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-seo-tag
+ 
+# Defaults
+defaults:
+
+  # all posts
+  - scope:
+      path: "_posts"
+    values:
+      layout: post
+      
+  # all pages
+  - scope:
+      path: "_pages"
+    values:
+      layout: page
+      
+      
+# Syntax
+markdown: kramdown
+highlighter: rouge
+
+# Pagination
+paginate: 20
+
+
+# Exclude metadata and development time dependencies (like Grunt plugins)
+exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
