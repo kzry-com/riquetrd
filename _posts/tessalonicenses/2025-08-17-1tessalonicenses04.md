@@ -2,7 +2,7 @@
 title:  "1 Tessalonicenses 04"
 metadate: "hide"
 categories: [ Biblia, 1Tessalonicenses, Tessalonicenses ]
-image: "assets/images/biblia/tessalonicenses/1tessalonicenses_04.webp
+image: "assets/images/biblia/tessalonicenses/1tessalonicenses_04.webp"
 video: "https://www.kwai.com/embed/5204059475067871647"
 videoID: "5204059475067871647"
 videosource: "Kwai"
